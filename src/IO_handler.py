@@ -51,7 +51,7 @@ if (p<=16 and q<=16):#size check
     L = Out_M1 + Out_M2           
     
     
-    textfile1 = open("input.txt", "w")
+    textfile1 = open("src/input.txt", "w")
     for element in L: 
         textfile1. write('%d\n' % element)
     textfile1. write('%d\n' % R1)
@@ -70,7 +70,7 @@ while True:
         result = []
         i = 0
         print("\nresultant matrix")     
-        with open('output.txt','r') as outfile:
+        with open('src\output.txt','r') as outfile:
             for line in outfile:
                 result.append(line.strip())
         while (i<r):

@@ -49,8 +49,8 @@ module Top_Level_tb();
 
     //instantiate file handlers and start DRAM write stage
     initial begin
-        data_input_file = $fopen("../../input.txt", "r");
-        data_output_file = $fopen("../../output.txt", "w");
+        data_input_file = $fopen("../../../src/input.txt", "r");
+       data_output_file = $fopen("../../../src/output.txt", "w");
 
         if (data_input_file == 0) begin
             $display("data_file handle was NULL");
