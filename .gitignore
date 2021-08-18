@@ -1,0 +1,6 @@
+/project/*
+!/project/Processor.qpf
+!/project/Processor.qsf
+*.qws
+*.rpt
+*.bak
